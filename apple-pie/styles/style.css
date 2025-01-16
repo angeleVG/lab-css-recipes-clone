@@ -20,5 +20,65 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.applepieImg {
+background-image: url("/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg");
+height: 500px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+}
+
+.intro {
+  display: flex;
+  width: 700px;
+  font-size: 20px;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.icons {
+  display: flex;
+  margin: 60px auto;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons img{
+  height: 60px;
+  width: auto;
+}
+
+.ingredients ul{
+  margin-left: 50px;
+}
+
+h2{
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+.directions p{
+margin-left: 50px;
+}
+
+.directions{
+margin-bottom: 40px;
+padding:
+}
